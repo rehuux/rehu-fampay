@@ -1,0 +1,9 @@
+{
+  "builds": [
+    { "src": "famTonum.py", "use": "@vercel/python" }
+  ],
+  "routes": [
+    { "src": "/(.*)", "dest": "famTonum.py" }
+  ],
+  "regions": ["bom1"]
+}
